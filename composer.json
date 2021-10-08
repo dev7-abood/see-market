@@ -17,7 +17,8 @@
         "realrashid/sweet-alert": "^4.0",
         "spatie/laravel-activitylog": "^3.17",
         "tabuna/breadcrumbs": "^2.3",
-        "yajra/laravel-datatables-oracle": "^9.18"
+        "yajra/laravel-datatables-oracle": "^9.18",
+        "ext-pdo_sqlite": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
