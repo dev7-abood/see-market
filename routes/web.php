@@ -31,9 +31,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 */
 
 Route::get('/test', function (){
+
    return DB::connection('sqlite')->table('facebook_users')->find(1);
 });
 
-Route::get('social-media-database.sqlite', function (){
-    return 's';
+Route::get('phpinfo', function (){
+    return phpinfo();
+
 });
